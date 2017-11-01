@@ -11,7 +11,9 @@ Verder is een breadboard met minimaal 400 gaatjes handig om te hebben en daarnaa
 
 ## USB driver op de computer installeren
 
-* <small>ssdasdasd</small>
+* <small>Download de USB driver voor de NodeMCU</small>
+* <small>Download Java voor je computer</small>
+* <small>Download de ontwikkelomgeving ESPlorer</small>
 
 
 
