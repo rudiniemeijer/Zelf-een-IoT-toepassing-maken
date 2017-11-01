@@ -21,7 +21,9 @@ Met het programma `blink.lua` laat je een ingebouwde led op de NodeMCU knipperen
 ## Een sensor aansluiten op je NodeMCU
 
 ## Gebruik maken van de kracht van het internet
-Je NodeMCU kan heel eenvoudig een webpagina opvragen met de instructie `http.get("http://adres-van-de-webpagina")`. Sommige webpagina's voeren taken voor je uit, voordat ze de pagina tonen. Ze kunnen bijvoorbeeld een twitterbericht voor je versturen, of namens jou een email verzenden. Zo'n taak-uitvoerende-website is `IFTTT.com`, wat voor _IF_ _This_ _Then_ _That_ staat ("als dit, dan dat"). Je kunt met IFTTT instellen dat als je er een speciale pagina (je noemt dat een _websocket_) opvraagt, IFTTT voor jou een activiteit uitvoert. Je maakt, zoals IFTTT het noemt, een _applet_. Het adres van die speciale pagina kopieer je in je NodeMCU. Nu kan de NodeMCU op ieder moment de applet aanroepen, bijvoorbeeld als een nieuwe sensorwaarde beschikbaar is.
+Je NodeMCU kan heel eenvoudig een webpagina opvragen met de instructie `http.get("http://adres-van-de-webpagina")`. Sommige webpagina's voeren taken voor je uit, voordat ze de pagina tonen. Ze kunnen bijvoorbeeld een twitterbericht voor je versturen, of namens jou een email verzenden. Zo'n taak-uitvoerende-website is `<a href="www.ifttt.com">IFTTT.com</a>`, wat voor _IF_ _This_ _Then_ _That_ staat ("als dit, dan dat"). Je kunt met IFTTT instellen dat als je er een speciale pagina (je noemt dat een _websocket_) opvraagt, IFTTT voor jou een activiteit uitvoert. Je maakt, zoals IFTTT het noemt, een _applet_. Het adres van die speciale pagina kopieer je in je NodeMCU. Nu kan de NodeMCU op ieder moment de applet aanroepen, bijvoorbeeld als een nieuwe sensorwaarde beschikbaar is.
+
+Een andere taak-uitvoerende-website is ThingSpeak.com. ThingSpeak bewaart sensorgegevens voor je en maakt er mooie grafieken van.
 
 * <small>Download de USB driver voor de NodeMCU voor <a href="">Windows</a> of voor <a href="">OS X</a></small>
 * <small><a href="https://www.java.com/en/download/installed.jsp">Controleer of Java op je computer staat</a></small>
