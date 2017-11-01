@@ -6,6 +6,8 @@ ledpin, pirsensorpin = 4, 2
 gpio.mode(pirsensorpin, gpio.INT, gpio.PULLUP)
 gpio.mode(ledpin, gpio.OUTPUT)
 
+-- Maak op IFTTT.com een Applet aan met als ingang een webrequest van het type Webhook ('this')
+-- kies een geschikte service om als actie te gebruiken ('that')
 -- Pas dit aan
 APPLET = "vervang deze tekst door de naam van applet"
 DE_API_SLEUTEL = "zet hier de API sleutel van IFTTT"
