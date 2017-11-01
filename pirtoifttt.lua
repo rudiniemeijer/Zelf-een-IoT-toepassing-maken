@@ -16,8 +16,9 @@ URL = "http://maker.ifttt.com/trigger/"..APPLET.."/with/key/"..DE_API_SLEUTEL
 function beweging()
   print(tmr.time() .. "PIR sensor detecteerde beweging")
   gpio.write(ledpin, gpio.LOW)                      -- gpio.LOW is led AAN
-  if wifi.sta.status() == 5 then                    -- Valide IP addres?
-    tmr.alarm(0, 500, tmr.ALARM_SINGLE, function()  -- Led uit na 0,5 seconden
+  if wifi.sta.status() == 5 then                    -- valide IP adres?
+    tmr.alarm(0, 500, tmr.ALARM_SINGLE,
+    function()                                      -- led uit na 0,5 seconden
       gpio.write(ledpin, gpio.HIGH)                 -- gpio.HIGH is led UIT
     end)
     http.get(URL.."?value1="..tmr.time())
