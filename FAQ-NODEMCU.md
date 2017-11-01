@@ -9,10 +9,12 @@ _Een NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig 
 
 Verder is een breadboard met minimaal 400 gaatjes handig om te hebben en daarnaast draadjes waarmee je gemakkelijk op het breadboard verbindingen kunt maken. Op de Windows- of OS X computer moet een USB-driver voor de NodeMCU worden geïnstalleerd. Ook moet de ESPlorer programmeeromgeving worden gedownload. Om deze te kunnen gebruiken is Java nodig, die meestal al wel op de computer staat.
 
-## USB driver op de computer installeren
+## Werken met de programmeeromgeving
+
+## 
 
 * <small>Download de USB driver voor de NodeMCU</small>
-* <small>Download Java voor je computer</small>
+* <small><a href="https://www.java.com/en/download/installed.jsp">Controleer of Java op je computer staat</a></small>
 * <small>Download de ontwikkelomgeving ESPlorer</small>
 
 
