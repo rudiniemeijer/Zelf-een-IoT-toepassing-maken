@@ -21,7 +21,7 @@ Met het programma `blink.lua` laat je een ingebouwde led op de NodeMCU knipperen
 ## Een sensor aansluiten op je NodeMCU
 
 ## Gebruik maken van de kracht van het internet
-Je NodeMCU kan heel eenvoudig een webpagina opvragen. Sommige webpagina's vertonen niet alleen een pagina, maar voeren ook taken voor je uit. Ze kunnen bijvoorbeeld een twitterbericht voor je versturen, of namens jou een email verzenden. Zo'n website is bijvoorbeeld IFTTT, wat voor _IF_ _This_ _Then_ _That_ staat. Je kunt met IFTTT.com instellen dat als je er een speciale pagina (je noemt dat een _websocket_) opvraagt, IFTTT voor jou een activiteit uitvoert. Die pagina (de _URL_) kopieer je in je NodeMCU, zodat deze dit zelfstandig kan doen.
+Je NodeMCU kan heel eenvoudig een webpagina opvragen met de instructie `http.get("http://adres-van-de-webpagina")`. Sommige webpagina's vertonen niet alleen een pagina, maar voeren ook taken voor je uit. Ze kunnen bijvoorbeeld een twitterbericht voor je versturen, of namens jou een email verzenden. Zo'n website is `IFTTT.com`, wat voor _IF_ _This_ _Then_ _That_ staat. Je kunt met IFTTT instellen dat als je er een speciale pagina (je noemt dat een _websocket_) opvraagt, IFTTT voor jou een activiteit uitvoert. Die pagina (de _URL_) kopieer je in je NodeMCU, zodat deze dit zelfstandig kan doen.
 
 * <small>Download de USB driver voor de NodeMCU voor <a href="">Windows</a> of voor <a href="">OS X</a></small>
 * <small><a href="https://www.java.com/en/download/installed.jsp">Controleer of Java op je computer staat</a></small>
