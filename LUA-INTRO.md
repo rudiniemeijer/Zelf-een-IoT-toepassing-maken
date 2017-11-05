@@ -72,12 +72,11 @@
     file.close()
 
 ## Input en output
-    gpio.mode(1, gpio.INPUT,
-      gpio.PULLUP)
+    gpio.mode(1, gpio.INPUT, gpio.PULLUP)
     if gpio.read(1) then
-      print("high")
+      print("hoog signaal")
     else
-      print("low")
+      print("laag signaal")
     end
     print(adc.read(0))
 
