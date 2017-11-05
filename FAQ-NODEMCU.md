@@ -25,7 +25,7 @@ NodeMCU's hebben een kleine USB conversiechip. Het merk en type hiervan bepaalt,
 De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun je <a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">hier</a> downloaden. De download komt als .zip bestand, die uitgepakt een enkele <code>esplorer.jar</code> bevat. 
 
 ## Verbinding maken met de NodeMCU
-Je NodeMCU wordt op een stukje schuim geleverd. Het schuim zorgt ervoor dat de aansluitpennen van de NodeMCU niet buigen en niet per ongeluk kortsluiting maken. Als je iets op je NodeMCU wilt aansluiten dan is het nodig een breadboard te gebruiken. Hieronder zie je een NodeMCU die op een breadboard is geprikt.
+Je NodeMCU wordt op een stukje schuim geleverd. Het schuim zorgt ervoor dat de aansluitpennen van de NodeMCU niet buigen en niet per ongeluk kortsluiting maken. Als je iets op je NodeMCU wilt aansluiten dan is het nodig een breadboard te gebruiken. Hieronder zie je een NodeMCU die op een breadboard is geprikt. Je ziet dat er boven en onder de NodeMCU een gaatjesrij is vrijgehouden. Hier kun je een draadje inprikken om verbindingen te maken met bijvoorbeeld een sensor.
 
 <img alt="Afbeelding van een NodeMCU op een breadboard" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg" width="350">
 
