@@ -39,7 +39,7 @@ Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangeslo
 5. **Editor**: dit is het venster waarin je je programma's kunt maken en aanpassen.
 6. **Directe instructies**: hier kun je een enkele instructie naar de NodeMCU sturen, die direct wordt uitgevoerd.
 
-<img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/esplorer-schermafdruk.jpg" width="350">
+<img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/esplorer-schermafdruk.jpg" width="500">
 
 ## Je eerste programma op de NodeMCU
 Met het programma <code>blink.lua</code> laat je een ingebouwde led op de NodeMCU knipperen. Je controleert met dit programma of je alles goed op je computer hebt geïnstalleerd en ziet gelijk je NodeMCU werken.
