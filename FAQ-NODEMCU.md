@@ -32,7 +32,7 @@ Je NodeMCU wordt op een stukje schuim geleverd. Het schuim zorgt ervoor dat de a
 Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangesloten) van stroom. Ook kun je zo de NodeMCU programmeren. In de volgende paragraaf wordt uitgelegd hoe je met de programmeeromgeving werkt.
 
 ## Werken met de programmeeromgeving
-1. **Verbindingsinstellingen**: hier kies je de USB poort waarop je NodeMCU is aangesloten. De verbindingssnelheid moet op 115.200 zijn ingesteld. Klik op de grote knop om met je NodeMCU te verbinden.
+1. **Verbindingsinstellingen**: hier kies je de USB poort waarop je NodeMCU is aangesloten. De verbindingssnelheid moet op 115200 zijn ingesteld. Klik op de grote knop om met je NodeMCU te verbinden.
 2. **Terminalvenster**: hier wordt de uitvoer van de NodeMCU getoond.
 3. **Bestandsbeheer**: met deze knoppen kun je de bestanden op je NodeMCU beheren. Met Refresh ververs je de lijst.
 4. **Programmabeheer**: met deze knoppen maak je een nieuw programma aan, bewaar je het programma dat je aan het schrijven bent en open je programma's die je op je computer hebt opgeslagen.
@@ -52,6 +52,10 @@ Je maakt op de hierboven beschreven wijze verbinding met de NodeMCU en kopieert 
 Een NodeMCU onthoudt automatisch het laatstgebruikte wifi toegangspunt. Dat betekent dat als je eenmaal je NodeMCU hebt ingesteld om gebruik te maken van een bepaald wifi toegangspunt, de NodeMCU die verbinding dan steeds opnieuw zelf maakt. Om de wifi instellingen goed te zetten kun je gebruik maken van het <code>wifi.lua</code> script. Je moet in dit script de gegevens van je eigen wifi toegangspunt zetten. Als je het script uitvoert dan zie je op het scherm van je computer of de verbinding is gemaakt.
 
 ## Een sensor aansluiten op je NodeMCU
+Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
+* Analoge waarden, zoals die van een LDR of vochtsensor aangesloten op <code>A0</code>, inlezen met <code>sensorwaarde = adc.read(0)</code>
+* Aan-uit schakelaars inlezen
+
 (beschrijf hier de meest eenvoudige manier om een meting te doen en de resultaten hiervan lokaal, in de ontwikkelomgeving, te bekijken)
 
 ## Gebruik maken van de kracht van het internet
