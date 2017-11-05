@@ -54,8 +54,8 @@ Een NodeMCU onthoudt automatisch het laatstgebruikte wifi toegangspunt. Dat bete
 ## Een sensor aansluiten op je NodeMCU
 Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
 * Analoge waarden, zoals die van een LDR of vochtsensor aangesloten op <code>A0</code>, inlezen met <code>sensorwaarde = adc.read(0)</code>
-* Aan-uit schakelaars inlezen met <code>gpio.read(poortnummer)</code>. Poortnummer kan hier 0 tot 8 zijn, voor sensoren die zijn aangesloten op <code>D0</code>..<code>D8</code>
-* Speciale sensoren, zoals de DS18B02 temperatuursensor en de DHT22 vochtsensor, hebben eigen manieren om te verbinden met de NodeMCU. In Lua zijn hiervoor speciale instructies
+* Aan-uit schakelaars inlezen met <code>sensorwaarde = gpio.read(poortnummer)</code>. Poortnummer kan hier 0 tot 8 zijn, voor sensoren die zijn aangesloten op <code>D0</code>..<code>D8</code>
+* Speciale sensoren, zoals de DS18B02 temperatuursensor en de DHT22 vochtsensor, hebben eigen manieren om te verbinden met de NodeMCU. In Lua zijn hiervoor speciale instructies opgenomen.
 
 (beschrijf hier de meest eenvoudige manier om een meting te doen en de resultaten hiervan lokaal, in de ontwikkelomgeving, te bekijken)
 
