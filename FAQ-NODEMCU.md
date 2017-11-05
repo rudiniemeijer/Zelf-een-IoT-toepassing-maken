@@ -34,6 +34,10 @@ Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangeslo
 ## Werken met de programmeeromgeving
 (beschrijf hier hoe je begint te werken met de programmeeromgeving ESPlorer)
 
+1. blabla
+2. blablabladerdie
+3. dadedieda
+
 <img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/esplorer-schermafdruk.jpg" width="350">
 
 ## Je eerste programma op de NodeMCU
