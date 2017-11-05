@@ -1,4 +1,5 @@
 -- blink.lua
+-- Uit het boek Zelf een IoT toepassing maken
 -- Copyright (c) 2017 Rudi Niemeijer
 -- MIT license
 
