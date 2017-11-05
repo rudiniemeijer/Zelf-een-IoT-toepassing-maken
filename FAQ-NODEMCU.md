@@ -24,14 +24,16 @@ NodeMCU's hebben een kleine USB conversiechip. Het merk en type hiervan bepaalt,
 ### Downloaden van de programmeeromgeving
 De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun je <a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">hier</a> downloaden. De download komt als .zip bestand, die uitgepakt een enkele <code>esplorer.jar</code> bevat. 
 
-## Verbinding maken met de NodeMCU
+## Aan de slag
+
+### Verbinding maken met de NodeMCU
 Je NodeMCU wordt op een stukje schuim geleverd. Het schuim zorgt ervoor dat de aansluitpennen van de NodeMCU niet buigen en niet per ongeluk kortsluiting maken. Als je iets op je NodeMCU wilt aansluiten dan is het nodig een breadboard te gebruiken. Hieronder zie je een NodeMCU die op een breadboard is gedrukt. Je ziet dat er boven en onder de NodeMCU een gaatjesrij is vrijgehouden. Hier kun je een draadje inprikken om verbindingen te maken met bijvoorbeeld een sensor.
 
 <img alt="Afbeelding van een NodeMCU op een breadboard" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg" width="350">
 
 Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangesloten) van stroom. Ook kun je zo de NodeMCU programmeren. In de volgende paragraaf wordt uitgelegd hoe je met de programmeeromgeving werkt.
 
-## Werken met de programmeeromgeving
+### Werken met de programmeeromgeving
 1. **Verbindingsinstellingen**: hier kies je de USB poort waarop je NodeMCU is aangesloten. De verbindingssnelheid moet op 115200 zijn ingesteld. Klik op de grote knop om met je NodeMCU te verbinden.
 2. **Terminalvenster**: hier wordt de uitvoer van de NodeMCU getoond.
 3. **Bestandsbeheer**: met deze knoppen kun je de bestanden op je NodeMCU beheren. Met Refresh ververs je de lijst.
@@ -43,15 +45,15 @@ Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangeslo
 
 Nadat je de NodeMCU op je computer hebt aangesloten en de programmeeromgeving hebt geopend, kies je de juiste USB poort en stel je de verbindingssnelheid in op 115.200 bits per seconde. Je kunt nu de verbinding openen met de grote knop waar de tekst Open op staat. Als je niet direct iets in het terminalvenster ziet verschijnen dan kun je op de Reset knop van je NodeMCU drukken. In het terminalvenster verschijnt de tekst die de NodeMCU verstuurt.
 
-## Je eerste programma op de NodeMCU
+### Je eerste programma op de NodeMCU
 Met het programma <code>blink.lua</code> laat je een ingebouwde led op de NodeMCU knipperen. Je controleert met dit programma of je alles goed op je computer hebt geïnstalleerd en ziet gelijk je NodeMCU werken.
 
 Je maakt op de hierboven beschreven wijze verbinding met de NodeMCU en kopieert de code van <code>blink.lua</code> in het programmavenster. Sla het programma op door op het icoon van de diskette te klikken. Er wordt om de naam van het programma gevraagt: voer hier _blink.lua_ in. Na het opslaan wordt het programma naar de NodeMCU verzonden; je ziet de voortgang hiervan in het terminalvenster. Na enkele seconden zie je hoe de led van je NodeMCU gaat knipperen.
 
-## Je NodeMCU met het internet verbinden
+### Je NodeMCU met het internet verbinden
 Een NodeMCU onthoudt automatisch het laatstgebruikte wifi toegangspunt. Dat betekent dat als je eenmaal je NodeMCU hebt ingesteld om gebruik te maken van een bepaald wifi toegangspunt, de NodeMCU die verbinding dan steeds opnieuw zelf maakt. Om de wifi instellingen goed te zetten kun je gebruik maken van het <code>wifi.lua</code> script. Je moet in dit script de gegevens van je eigen wifi toegangspunt zetten. Als je het script uitvoert dan zie je op het scherm van je computer of de verbinding is gemaakt.
 
-## Een sensor aansluiten op je NodeMCU
+### Een sensor aansluiten op je NodeMCU
 Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
 * Analoge waarden, zoals die van een LDR of vochtsensor aangesloten op <code>A0</code>, inlezen met <code>sensorwaarde = adc.read(0)</code>
 * Aan-uit schakelaars inlezen met <code>sensorwaarde = gpio.read(poortnummer)</code>. Poortnummer kan hier 0 tot 8 zijn, voor sensoren die zijn aangesloten op <code>D0</code>..<code>D8</code>
