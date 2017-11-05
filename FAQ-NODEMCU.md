@@ -11,6 +11,11 @@ Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je 
 
 <img alt="Afbeelding van een NodeMCU op een breadboard" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg" width="350">
 
+### Downloaden van de juiste driver voor de NodeMCU
+
+### Downloaden van de programmeeromgeving
+De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun je <a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">hier</a> downloaden.
+
 ## Werken met de programmeeromgeving
 
 ## Verbinding maken met de NodeMCU
