@@ -54,7 +54,7 @@ Een NodeMCU onthoudt automatisch het laatstgebruikte wifi toegangspunt. Dat bete
 ## Een sensor aansluiten op je NodeMCU
 Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
 * Analoge waarden, zoals die van een LDR of vochtsensor aangesloten op <code>A0</code>, inlezen met <code>sensorwaarde = adc.read(0)</code>
-* Aan-uit schakelaars inlezen
+* Aan-uit schakelaars inlezen met <code>gpio.read(poortnummer)</code>. Poortnummer kan hier 1 tot 
 
 (beschrijf hier de meest eenvoudige manier om een meting te doen en de resultaten hiervan lokaal, in de ontwikkelomgeving, te bekijken)
 
