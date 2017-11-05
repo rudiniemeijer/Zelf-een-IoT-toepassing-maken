@@ -32,11 +32,12 @@ Je NodeMCU wordt op een stukje schuim geleverd. Het schuim zorgt ervoor dat de a
 Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangesloten) van stroom. Ook kun je zo de NodeMCU programmeren. In de volgende paragraaf wordt uitgelegd hoe je met de programmeeromgeving werkt.
 
 ## Werken met de programmeeromgeving
-(beschrijf hier hoe je begint te werken met de programmeeromgeving ESPlorer)
-
-1. *Verbindingsinstellingen*: hier kies je de juiste USB poort waar je NodeMCU is aangesloten. De verbindingssnelheid moet op 115.200 zijn ingesteld. Klik op de grote knop om met je NodeMCU te verbinden
-5. blablabladerdie
-3. dadedieda
+1. **Verbindingsinstellingen**: hier kies je de USB poort waarop je NodeMCU is aangesloten. De verbindingssnelheid moet op 115.200 zijn ingesteld. Klik op de grote knop om met je NodeMCU te verbinden.
+2. **Terminalvenster**: hier wordt de uitvoer van de NodeMCU getoond.
+3. **Bestandsbeheer**: met deze knoppen kun je de bestanden op je NodeMCU beheren. Met Refresh ververs je de lijst.
+4. **Programmabeheer**: met deze knoppen maak je een nieuw programma aan, bewaar je het programma dat je aan het schrijven bent en open je programma's die je op je computer hebt opgeslagen.
+5. **Editor**: dit is het venster waarin je je programma's kunt maken en aanpassen.
+6. **Directe instructies**: hier kun je een enkele instructie naar de NodeMCU sturen, die direct wordt uitgevoerd.
 
 <img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/esplorer-schermafdruk.jpg" width="350">
 
