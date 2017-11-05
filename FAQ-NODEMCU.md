@@ -10,9 +10,13 @@ _Een NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig 
 Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je gemakkelijk op het breadboard verbindingen kunt maken. Op je Windows- of OS X computer moet een USB-driver voor de NodeMCU worden geïnstalleerd. Ook moet de ESPlorer programmeeromgeving worden gedownload. Om deze te kunnen gebruiken is Java nodig, die meestal al wel op de computer staat. Al deze genoemde software is gratis.
 
 ### Beschrijving van het blokschema van de NodeMCU
-De NodeMCU heeft een USB-naar-serieel omzettingschip (rechts op het blokschema weergegeven). 
+Een NodeMCU heeft vier belangrijke onderdelen: een spanningsregulator van 5 naar 3,3 volt, een USB naar serieel conversiechip, een microcontroller van het type ESP8266 en een 4 MB groot flashgeheugen voor de Lua interpreter, de firmware en jouw eigen programma's. Het geheugen is groot genoeg voor tientallen programma's, die elkaar kunnen aanroepen.
 
 <img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-blokschema.jpg" width="350">
+
+In het midden van het blokschema is de microcontroller getekent. Dit is een klein chipje van 5 x 5 mm dat samen met het flashgeheugen onder het metalen dekseltje op de NodeMCU zit. In het chipje zit wifi, een moderne microprocessor, de aansluitingen voor sensoren en actuatoren, een 'Real Time Clock' en de communicatiepoort die met de USB omzetter is verbonden.
+
+Het flashgeheugen bevat in elk geval een bootloader en de NodeMCU firmware. Met de bootloader is het mogelijk om nieuwe, verbeterde NodeMCU firmware te laden. Ook zit er in het flashgeheugen een 'SPIFFS': een bestandssysteem dat ervoor zorgt dat je je programma's kunt opslaan, maar ook dat je vanuit je programma's eenvoudig gegevens kunt bewaren.
 
 ### Downloaden van de juiste driver voor de NodeMCU
 NodeMCU's hebben een kleine USB conversiechip. Het merk en type hiervan bepaalt, welke USB driver je nodig hebt voor je NodeMCU. De NodeMCU's van fabrikant Amica maken gebruik van de 'SLAB' driver. De NodeMCU's van fabrikant DoIT maken gebruik van de '' driver. Het merk van de NodeMCU staat op de achterkant.
