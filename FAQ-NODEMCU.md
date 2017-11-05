@@ -34,7 +34,7 @@ Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangeslo
 ## Werken met de programmeeromgeving
 (beschrijf hier hoe je begint te werken met de programmeeromgeving ESPlorer)
 
-1. blabla
+1. *Verbindingsinstellingen*: hier kies je de juiste USB poort waar je NodeMCU is aangesloten. De verbindingssnelheid moet op 115.200 zijn ingesteld. Klik op de grote knop om met je NodeMCU te verbinden
 5. blablabladerdie
 3. dadedieda
 
