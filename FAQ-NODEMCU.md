@@ -14,14 +14,14 @@ Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je 
 ### Downloaden van de juiste driver voor de NodeMCU
 
 ### Downloaden van de programmeeromgeving
-De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun je <a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">hier</a> downloaden.
+De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun je <a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">hier</a> downloaden. De download komt als .zip bestand, die uitgepakt een enkele 'esplorer.jar' bevat. 
 
 ## Werken met de programmeeromgeving
 
 ## Verbinding maken met de NodeMCU
 
 ## Je eerste programma op de NodeMCU
-Met het programma `blink.lua` laat je een ingebouwde led op de NodeMCU knipperen. Je controleert met dit programma of je alles goed op je computer hebt geïnstalleerd en ziet gelijk je NodeMCU werken.
+Met het programma <pre>blink.lua</pre> laat je een ingebouwde led op de NodeMCU knipperen. Je controleert met dit programma of je alles goed op je computer hebt geïnstalleerd en ziet gelijk je NodeMCU werken.
 
 ## Je NodeMCU met het internet verbinden
 
@@ -34,7 +34,7 @@ Een andere gratis taak-uitvoerende-website is <a href="http://www.thingspeak.com
 
 * <small>Download de USB driver voor de NodeMCU voor <a href="">Windows</a> of voor <a href="">OS X</a></small>
 * <small><a href="https://www.java.com/en/download/installed.jsp">Controleer of Java op je computer staat</a></small>
-* <small><a href="">Download de ontwikkelomgeving ESPlorer</a></small>
+* <small><a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">Download de ontwikkelomgeving ESPlorer</a></small>
 
 
 
