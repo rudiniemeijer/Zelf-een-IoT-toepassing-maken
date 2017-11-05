@@ -7,7 +7,7 @@ _Een NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig 
 * Een Windows- of OS X computer (Linux kan ook, maar het gebruik daarvan beschrijven we hier niet)
 * Beschikking over een wifi toegangspunt
 
-Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je gemakkelijk op het breadboard verbindingen kunt maken. Op je Windows- of OS X computer moet een USB-driver voor de NodeMCU worden geïnstalleerd. Ook moet de ESPlorer programmeeromgeving worden gedownload. Om deze te kunnen gebruiken is Java nodig, die meestal al wel op de computer staat.
+Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je gemakkelijk op het breadboard verbindingen kunt maken. Op je Windows- of OS X computer moet een USB-driver voor de NodeMCU worden geïnstalleerd. Ook moet de ESPlorer programmeeromgeving worden gedownload. Om deze te kunnen gebruiken is Java nodig, die meestal al wel op de computer staat. Al deze genoemde software is gratis.
 
 ## Werken met de programmeeromgeving
 
