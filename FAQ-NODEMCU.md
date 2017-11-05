@@ -57,8 +57,8 @@ Een andere gratis taak-uitvoerende-website is <a href="http://www.thingspeak.com
 * <small>Download de USB driver voor de NodeMCU voor <a href="">Windows</a> of voor <a href="">OS X</a></small>
 * <small><a href="https://www.java.com/en/download/installed.jsp">Controleer of Java op je computer staat</a></small>
 * <small><a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">Download de ontwikkelomgeving ESPlorer</a></small>
-* <small>Lua programma om de wifi instellingen goed te zetten</small>
-* <small>Lua programma om een led op de NodeMCU te laten knipperen</small>
+* <small><a href="https://github.com/rudiniemeijer/Zelf-een-IoT-toepassing-maken/blob/master/wifi.lua">Lua programma om de wifi instellingen goed te zetten</a></small>
+* <small><a href="https://github.com/rudiniemeijer/Zelf-een-IoT-toepassing-maken/blob/master/wifi.lua">Lua programma om een led op de NodeMCU te laten knipperen</a></small>
 
 
 
