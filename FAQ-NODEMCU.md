@@ -32,10 +32,12 @@ Je NodeMCU wordt op een stukje schuim geleverd. Het schuim zorgt ervoor dat de a
 Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangesloten) van stroom. Ook kun je zo de NodeMCU programmeren. In de volgende paragraaf wordt uitgelegd hoe je met de programmeeromgeving werkt.
 
 ## Werken met de programmeeromgeving
-Nadat je je NodeMCU hebt aangesloten op je computer is het tijd om de programmeeromgeving te openen. 
+(beschrijf hier hoe je begint te werken met de programmeeromgeving ESPlorer) 
 
 ## Je eerste programma op de NodeMCU
 Met het programma <code>blink.lua</code> laat je een ingebouwde led op de NodeMCU knipperen. Je controleert met dit programma of je alles goed op je computer hebt geïnstalleerd en ziet gelijk je NodeMCU werken.
+
+(beschrijf hier hoe je blink download, de code in de programmeeromgeving kopieert, het programma opslaat en hoe je kunt zien dat het programmeren is geslaagd)
 
 ## Je NodeMCU met het internet verbinden
 (beschrijf hier hoe je de wifi instellingen goed zet en hoe je kunt controleren dat je verbinding met het internet hebt)
