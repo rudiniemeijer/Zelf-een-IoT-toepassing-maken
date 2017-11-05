@@ -11,6 +11,8 @@ Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je 
 
 ![Afbeelding van een NodeMCU op een breadboard](https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg)
 
+<img src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg" width="200">
+
 ## Werken met de programmeeromgeving
 
 ## Verbinding maken met de NodeMCU
