@@ -57,8 +57,6 @@ Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
 * Aan-uit schakelaars inlezen met <code>sensorwaarde = gpio.read(poortnummer)</code>. Poortnummer kan hier 0 tot 8 zijn, voor sensoren die zijn aangesloten op <code>D0</code>..<code>D8</code>
 * Speciale sensoren, zoals de DS18B20 temperatuursensor en de DHT22 vochtsensor, hebben eigen manieren om te verbinden met de NodeMCU. In Lua zijn hiervoor speciale instructies opgenomen.
 
-(beschrijf hier de meest eenvoudige manier om een meting te doen en de resultaten hiervan lokaal, in de ontwikkelomgeving, te bekijken)
-
 ## Gebruik maken van de kracht van het internet
 Je NodeMCU kan heel eenvoudig een webpagina opvragen met de instructie <code>http.get("http://adres-van-de-webpagina")</code>. Sommige webpagina's voeren taken voor je uit, voordat ze de pagina tonen. Ze kunnen bijvoorbeeld een twitterbericht voor je versturen, of namens jou een email verzenden. 
 
