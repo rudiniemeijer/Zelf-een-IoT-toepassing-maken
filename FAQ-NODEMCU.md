@@ -21,7 +21,7 @@ De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun j
 ## Verbinding maken met de NodeMCU
 
 ## Je eerste programma op de NodeMCU
-Met het programma <pre>blink.lua</pre> laat je een ingebouwde led op de NodeMCU knipperen. Je controleert met dit programma of je alles goed op je computer hebt geïnstalleerd en ziet gelijk je NodeMCU werken.
+Met het programma `blink.lua` laat je een ingebouwde led op de NodeMCU knipperen. Je controleert met dit programma of je alles goed op je computer hebt geïnstalleerd en ziet gelijk je NodeMCU werken.
 
 ## Je NodeMCU met het internet verbinden
 
