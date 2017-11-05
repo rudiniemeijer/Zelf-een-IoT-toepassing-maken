@@ -9,9 +9,7 @@ _Een NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig 
 
 Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je gemakkelijk op het breadboard verbindingen kunt maken. Op je Windows- of OS X computer moet een USB-driver voor de NodeMCU worden geïnstalleerd. Ook moet de ESPlorer programmeeromgeving worden gedownload. Om deze te kunnen gebruiken is Java nodig, die meestal al wel op de computer staat. Al deze genoemde software is gratis.
 
-![Afbeelding van een NodeMCU op een breadboard](https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg)
-
-<img src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg" width="200">
+<img alt="Afbeelding van een NodeMCU op een breadboard" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg" width="350">
 
 ## Werken met de programmeeromgeving
 
