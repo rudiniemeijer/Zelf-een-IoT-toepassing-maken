@@ -23,7 +23,8 @@ wifi.sta.connect()
 -- Informatie over het gebruik van de webhook in de README.MD
 tmr.alarm(6, 30000, tmr.ALARM_AUTO, function() 
   if wifi.sta.status() == 5 then
-    http.get("http://maker.ifttt.com/trigger/testwifi/with/key/cKOv_7WOkun-XfI22a5Duw-yhCiJF61C-dn4NvuU-LI?value1=" .. wifi.sta.getmac())
+    print("Er is verbinding met het internet: "..wifi.sta.getip())
+    -- http.get("http://maker.ifttt.com/trigger/testwifi/with/key/cKOv_7WOkun-XfI22a5Duw-yhCiJF61C-dn4NvuU-LI?value1=" .. wifi.sta.getmac())
   else
     print("Nog geen verbinding met het internet. Controleer de instellingen.")
   end
