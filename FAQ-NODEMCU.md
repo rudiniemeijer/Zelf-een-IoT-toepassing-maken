@@ -66,6 +66,15 @@ Zo'n taak-uitvoerende-website is het gratis <a href="http://www.ifttt.com">IFTTT
 ### ThingSpeak
 Een andere gratis taak-uitvoerende-website is <a href="http://www.thingspeak.com">ThingSpeak.com</a>. ThingSpeak bewaart sensorgegevens voor je en maakt er mooie grafieken van. Je kunt nieuwe sensorwaarden ook weer met de <code>http.get</code> instructie verzenden, waarbij de verschillende sensorwaarden in de URL worden meegegeven.
 
+## Problemen oplossen
+Werken met microcontrollers zoals de NodeMCU is heel plezierig en meestal krijg je snel resultaten. Soms zit er echter wat tegen. Hieronder volgt een lijstje aandachtspunten voor als het allemaal niet werkt zoals je dat wilt:
+* Je ziet niet de USB poort in de programmeeromgeving verschijnen  
+Controleer of je NodeMCU is aangesloten. Druk op de Refresh knop gelijk rechts naast de lijst met USB poorten. Staat je USB poort er niet tussen? Dan moet je waarschijnlijk de USB driver nog installeren
+* Kan geen verbinding maken met de NodeMCU  
+Controleer dat je de micro-USB kabel hebt aangesloten, de juiste USB poort hebt gekozen, 115200 als verbindingssnelheid heb gekozen en op de Open knop hebt gedrukt. Als je niet nog steeds niets in het terminalscherm ziet, druk dan op de Reset-knop van de NodeMCU
+* Je NodeMCU lijkt niet te willen werken met drijvende-komma-getallen, of enkele Lua instructies die hier genoemd worden lijken niet op je NodeMCU te werken  
+Het kan nodig zijn om nieuwe, verbeterde NodeMCU firmware op je NodeMCU te zetten. Volg hiervoor het update firmware stappenplan.
+
 * <small>Download de USB driver voor de NodeMCU voor <a href="">Windows</a> of voor <a href="">OS X</a></small>
 * <small><a href="https://www.java.com/en/download/installed.jsp">Controleer of Java op je computer staat</a></small>
 * <small><a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">Download de ontwikkelomgeving ESPlorer</a></small>
