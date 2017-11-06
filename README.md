@@ -1,8 +1,7 @@
 # Zelf-een-IoT-toepassing-maken <img src="artwork/nodemcu-illustratie.jpg" width="350" align="right">
 Programma's en codevoorbeelden uit het boek.
 
-# Beginnen met de NodeMCU<img src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/nodemcu-illustratie.jpg" width="400" align="right">
-_Een NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig met het internet is te verbinden. Je kunt een NodeMCU herkennen aan de micro-USB aansluiting aan de ene kant en een wifi-antenne op de andere kant. Het printplaatje heeft afmetingen van ongeveer 5 x 2,5 cm. Je programmeert de NodeMCU met instructies in de taal Lua, wat 'maan' betekent in het Portugees. Met deze tips gaat dat lukken._
+De NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig met het internet is te verbinden. Je kunt een NodeMCU herkennen aan de micro-USB aansluiting aan de ene kant en een wifi-antenne op de andere kant. Het printplaatje heeft afmetingen van ongeveer 5 x 2,5 cm. Je programmeert de NodeMCU met instructies in de taal Lua, wat 'maan' betekent in het Portugees.
 
 ## Wat heb je nodig
 * Een NodeMCU
@@ -91,7 +90,3 @@ Dit Lua programma maakt verbinding met het internet en roept via een webhook een
 Hiermee wordt de (enige) analoge poort van de NodeMCU uitgelezen en wordt de waarde op het scherm getoond.
 * [resistancetothingspeak.lua](resistancetothingspeak.lua)
 Dit Lua programma maakt verbinding met het internet en stuurt via een webhook de gemeten waarde van de analoge poort naar ThingSpeak.
-
-# Drivers en programmeeromgeving
-
-# Nieuwe firmware laden
