@@ -75,8 +75,7 @@ Controleer dat je de micro-USB kabel hebt aangesloten, de juiste USB poort hebt 
 * Je NodeMCU lijkt niet te willen werken met drijvende-komma-getallen, of enkele Lua instructies die hier genoemd worden lijken niet op je NodeMCU te werken  
 Het kan nodig zijn om nieuwe, verbeterde NodeMCU firmware op je NodeMCU te zetten. Volg hiervoor het update firmware stappenplan.  
 
-
-
+## Links en downloads
 * <small>Download de USB driver voor de NodeMCU voor <a href="">Windows</a> of voor <a href="">OS X</a></small>
 * <small><a href="https://www.java.com/en/download/installed.jsp">Controleer of Java op je computer staat</a></small>
 * <small><a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">Download de ontwikkelomgeving ESPlorer</a></small>
