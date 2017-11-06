@@ -1,7 +1,7 @@
 # Zelf een IoT toepassing maken 
-Programma's en codevoorbeelden uit het boek.
+_Programma's en codevoorbeelden uit het boek_ <img src="artwork/nodemcu-illustratie.jpg" width="350" align="right"> 
 
-<img src="artwork/nodemcu-illustratie.jpg" width="350" align="right"> De NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig met het internet is te verbinden. Je kunt een NodeMCU herkennen aan de micro-USB aansluiting aan de ene kant en een wifi-antenne op de andere kant. Het printplaatje heeft afmetingen van ongeveer 5 x 2,5 cm. Je programmeert de NodeMCU met instructies in de taal Lua, wat 'maan' betekent in het Portugees.
+De NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig met het internet is te verbinden. Je kunt een NodeMCU herkennen aan de micro-USB aansluiting aan de ene kant en een wifi-antenne op de andere kant. Het printplaatje heeft afmetingen van ongeveer 5 x 2,5 cm. Je programmeert de NodeMCU met instructies in de taal Lua, wat 'maan' betekent in het Portugees.
 
 ## Wat heb je nodig
 * Een NodeMCU
