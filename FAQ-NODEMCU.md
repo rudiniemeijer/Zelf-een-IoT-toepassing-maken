@@ -1,4 +1,4 @@
-# Beginnen met de NodeMCU<img src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-illustratie.jpg" width="400" align="right">
+# Beginnen met de NodeMCU<img src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/nodemcu-illustratie.jpg" width="400" align="right">
 _Een NodeMCU is een kleine computer met allerlei in- en uitgangen die eenvoudig met het internet is te verbinden. Je kunt een NodeMCU herkennen aan de micro-USB aansluiting aan de ene kant en een wifi-antenne op de andere kant. Het printplaatje heeft afmetingen van ongeveer 5 x 2,5 cm. Je programmeert de NodeMCU met instructies in de taal Lua, wat 'maan' betekent in het Portugees. Met deze tips gaat dat lukken._
 
 ## Wat heb je nodig
@@ -12,7 +12,7 @@ Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je 
 ### Beschrijving van het blokschema van de NodeMCU
 Een NodeMCU heeft vier belangrijke onderdelen: een spanningsregulator naar 3,3 volt, een USB naar serieel conversiechip, een microcontroller van het type ESP8266 en een 4 MB groot flashgeheugen voor de Lua interpreter, de firmware en jouw eigen programma's. Het geheugen is groot genoeg voor tientallen programma's, die elkaar kunnen aanroepen met <code>resultaat = dofile("luaprogramma")</code>.
 
-<img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-blokschema.jpg" width="350">
+<img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/artwork/master/nodemcu-blokschema.jpg" width="350">
 
 In het midden van het blokschema is de microcontroller getekend. Dit is een klein chipje van 5 x 5 mm dat samen met het flashgeheugen onder het metalen dekseltje op de NodeMCU zit. In het chipje zit wifi, een moderne microprocessor, de aansluitingen voor sensoren en actuatoren, een 'Real Time Clock' en de communicatiepoort die met de USB omzetter is verbonden.
 
@@ -27,7 +27,7 @@ De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun j
 ## Aan de slag
 Je NodeMCU wordt op een stukje schuim geleverd. Het schuim zorgt ervoor dat de aansluitpennen van de NodeMCU niet buigen en niet per ongeluk kortsluiting maken. Als je iets op je NodeMCU wilt aansluiten dan is het nodig een breadboard te gebruiken. Hieronder zie je een NodeMCU die op een breadboard is gedrukt. Je ziet dat er boven en onder de NodeMCU een gaatjesrij is vrijgehouden. Hier kun je een draadje inprikken om verbindingen te maken met bijvoorbeeld een sensor.
 
-<img alt="Afbeelding van een NodeMCU op een breadboard" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/nodemcu-op-breadboard.jpg" width="350">
+<img alt="Afbeelding van een NodeMCU op een breadboard" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/nodemcu-op-breadboard.jpg" width="350">
 
 Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangesloten) van stroom. Ook kun je zo de NodeMCU programmeren. In de volgende paragraaf wordt uitgelegd hoe je met de programmeeromgeving werkt.
 
@@ -39,7 +39,7 @@ Met een micro-USB kabeltje voorzie je de NodeMCU (en alles wat er op is aangeslo
 5. **Editor**: dit is het venster waarin je je programma's kunt maken en aanpassen.
 6. **Directe instructies**: hier kun je een enkele instructie naar de NodeMCU sturen, die direct wordt uitgevoerd.
 
-<img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/esplorer-schermafdruk.jpg" width="500">
+<img alt="Blokschema van de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/esplorer-schermafdruk.jpg" width="500">
 
 Nadat je de NodeMCU op je computer hebt aangesloten en de programmeeromgeving hebt geopend, kies je de juiste USB poort en stel je de verbindingssnelheid in op 115.200 bits per seconde. Je kunt nu de verbinding openen met de grote knop waar de tekst Open op staat. Als je niet direct iets in het terminalvenster ziet verschijnen dan kun je op de Reset knop van je NodeMCU drukken. In het terminalvenster verschijnt de tekst die de NodeMCU verstuurt.
 
