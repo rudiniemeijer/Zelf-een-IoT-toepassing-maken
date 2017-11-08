@@ -165,13 +165,15 @@ Een andere gratis taak-uitvoerende-website is <a href="http://www.thingspeak.com
 ## Projecten om mee van start te gaan
 
 ### Grondvochtigheidsmeting
-Het meten van de vochtigheid van grond is een interessante IoT toepassing, bijvoorbeeld om gesignaleerd te worden als een kamerplant moet worden bewaterd. Je gebruikt hiervoor een bodemsensor, die bestaat uit twee elektrodes waartussen weerstand wordt gemeten. De weerstand van grond is evenredig met de vochtigheid ervan: hoe vochtiger de grond, hoe lager de weerstand. Op de grondsensor is een transistor opgenomen die de gemeten weerstand omzet in een spanning. De spanning is laag als weinig vocht in de grond zit en hoog als er veel vocht in de grond zit.
+Het meten van de vochtigheid van grond is een interessante IoT toepassing, bijvoorbeeld om gesignaleerd te worden als een kamerplant moet worden bewaterd. Je gebruikt hiervoor een [bodemsensor](https://www.okaphone.com/artikel.asp?id=475466), die bestaat uit twee elektrodes waartussen de weerstand wordt gemeten. De weerstand van grond is evenredig met de vochtigheid ervan: hoe vochtiger de grond, hoe lager de weerstand. Op de grondsensor is een transistor opgenomen die de gemeten weerstand omzet in een spanning. De spanning is laag als er weinig vocht in de grond zit en hoog als er veel vocht in de grond zit.
 
 <img alt="Grondsensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-bodemsensor-aan-nodemcu.jpg" width="500">
 
-Je doet een vochtmeting met `meetwaarde = adc.read(0)`. Met het voorbeeldprogramma [testanalog.lua](testanalog.lua) laat je de vochtmeting iedere 2 seconden op het scherm zien. Als je wilt, kunt je de gemeten waarde op het internet publiceren, bijvoorbeeld door het met een webhook naar ThingSpeak te versturen. Je kunt daar het voorbeeldprogramma [resistancetothingspeak.lua](resistancetothingspeak.lua) voor gebruiken.
+Je doet een vochtmeting met `meetwaarde = adc.read(0)`. Met het voorbeeldprogramma [testanalog.lua](testanalog.lua) laat je de vochtmeting iedere 2 seconden op het scherm zien. Als je wilt, kunt je de gemeten waarde op het internet publiceren, bijvoorbeeld door het met een webhook naar ThingSpeak te versturen. Je kunt daar het voorbeeldprogramma [resistancetothingspeak.lua](resistancetothingspeak.lua) voor gebruiken. De gemeten weerstand wordt dan iedere 5 seconden naar ThingSpeak gestuurd.
 
 ### Beweging melden
+Beweging kun je detecteren met een Passief Infra Rood (PIR) sensor. Deze heeft een schakeluitgang die sluit als er beweging wordt gedetecteerd. Je kunt instellen hoe gevoelig de sensor moet zijn en hoe lang de schakeluitgang na de gedetecteerde beweging nog gesloten moet blijven. 
+
 <img alt="PIR sensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-pirsensor-aan-nodemcu.jpg" width="500">
 
 ## Problemen oplossen
