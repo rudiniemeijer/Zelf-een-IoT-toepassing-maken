@@ -159,7 +159,7 @@ Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
 <img alt="Grondsensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-bodemsensor-aan-nodemcu.jpg" width="500">
 
 ### Bewegingen melden
-<img alt="PIR sensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-pir-sensor-aan-nodemcu.jpg" width="500">
+<img alt="PIR sensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-pirsensor-aan-nodemcu.jpg" width="500">
 
 ## Gebruik maken van de kracht van het internet
 Je NodeMCU kan heel eenvoudig een webpagina opvragen met de instructie <code>http.get("http://adres-van-de-webpagina")</code>. Sommige webpagina's voeren taken voor je uit, voordat ze de pagina tonen. Ze kunnen bijvoorbeeld een twitterbericht voor je versturen, of namens jou een email verzenden. 
