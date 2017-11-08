@@ -169,7 +169,7 @@ Het meten van de vochtigheid van grond is een interessante IoT toepassing, bijvo
 
 <img alt="Grondsensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-bodemsensor-aan-nodemcu.jpg" width="500">
 
-Je doet een vochtmeting met `meetwaarde = adc.read(0)`. Met het voorbeeldprogramma [testanalog.lua](testanalog.lua) laat je de vochtmeting op het scherm zien.
+Je doet een vochtmeting met `meetwaarde = adc.read(0)`. Met het voorbeeldprogramma [testanalog.lua](testanalog.lua) laat je de vochtmeting iedere 2 seconden op het scherm zien. Als je wilt, kunt je de gemeten waarde op het internet publiceren, bijvoorbeeld door het met een webhook naar ThingSpeak te versturen. Je kunt daar het voorbeeldprogramma [resistancetothingspeak.lua](resistancetothingspeak.lua) voor gebruiken.
 
 ### Beweging melden
 <img alt="PIR sensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-pirsensor-aan-nodemcu.jpg" width="500">
