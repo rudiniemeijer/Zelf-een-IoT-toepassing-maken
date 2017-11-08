@@ -171,10 +171,10 @@ Het meten van de vochtigheid van grond is een interessante IoT toepassing, bijvo
 
 Je doet een vochtmeting met `meetwaarde = adc.read(0)`. Met het voorbeeldprogramma [testanalog.lua](testanalog.lua) laat je de vochtmeting iedere 2 seconden op het scherm zien. Als je wilt, kunt je de gemeten waarde op het internet publiceren, bijvoorbeeld door het met een webhook naar ThingSpeak te versturen. Je kunt daar het voorbeeldprogramma [resistancetothingspeak.lua](resistancetothingspeak.lua) voor gebruiken. De gemeten weerstand wordt dan iedere 5 seconden naar ThingSpeak gestuurd.
 
-|         | Signaal | Voedingsspanning | GND |
-| ------- | ------- | ------- |
-| NodeMCU | A0 | 3,3V | GND |
-| Bodemsensor | S | Vin | GND |
+|         | Signaal | Voedingsspanning | GND |  
+| ------- | ------- | ------- |  
+| NodeMCU | A0 | 3,3V | GND |  
+| Bodemsensor | S | Vin | GND |  
 
 ### Beweging melden
 Beweging kun je detecteren met een [Passief Infra Rood (PIR) sensor](https://www.okaphone.com/artikel.asp?id=484591). Deze heeft een schakeluitgang die sluit als er beweging wordt gedetecteerd. Je kunt instellen hoe gevoelig de sensor moet zijn en hoe lang de schakeluitgang na de gedetecteerde beweging nog gesloten moet blijven. 
