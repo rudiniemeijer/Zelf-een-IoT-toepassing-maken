@@ -153,14 +153,6 @@ Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
         print("hallo")
       end)
 
-## Kleine projecten om mee van start te gaan
-
-### Grondvochtigheidsmeting
-<img alt="Grondsensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-bodemsensor-aan-nodemcu.jpg" width="500">
-
-### Bewegingen melden
-<img alt="PIR sensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-pirsensor-aan-nodemcu.jpg" width="500">
-
 ## Gebruik maken van de kracht van het internet
 Je NodeMCU kan heel eenvoudig een webpagina opvragen met de instructie <code>http.get("http://adres-van-de-webpagina")</code>. Sommige webpagina's voeren taken voor je uit, voordat ze de pagina tonen. Ze kunnen bijvoorbeeld een twitterbericht voor je versturen, of namens jou een email verzenden. 
 
@@ -169,6 +161,14 @@ Zo'n taak-uitvoerende-website is het gratis <a href="http://www.ifttt.com">IFTTT
 
 ### ThingSpeak
 Een andere gratis taak-uitvoerende-website is <a href="http://www.thingspeak.com">ThingSpeak.com</a>. ThingSpeak bewaart sensorgegevens voor je en maakt er mooie grafieken van. Je kunt nieuwe sensorwaarden ook weer met de <code>http.get</code> instructie verzenden, waarbij de verschillende sensorwaarden in de URL worden meegegeven.
+
+## Projecten om mee van start te gaan
+
+### Grondvochtigheidsmeting
+<img alt="Grondsensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-bodemsensor-aan-nodemcu.jpg" width="500">
+
+### Beweging melden
+<img alt="PIR sensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-pirsensor-aan-nodemcu.jpg" width="500">
 
 ## Problemen oplossen
 Werken met microcontrollers zoals de NodeMCU is heel plezierig en meestal krijg je snel resultaten. Soms zit er echter wat tegen. Hieronder volgt een lijstje aandachtspunten voor als het allemaal niet werkt zoals je dat wilt:
