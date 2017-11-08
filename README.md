@@ -172,6 +172,8 @@ Controleer dat je de micro-USB kabel hebt aangesloten, de juiste USB poort hebt 
 Het kan nodig zijn om nieuwe, verbeterde NodeMCU firmware op je NodeMCU te zetten. Volg hiervoor het update firmware stappenplan.  
 
 ## Links en downloads
+**Alle genoemde onderdelen en het boek Zelf een IoT toepassing maken, zijn online en in de winkel verkrijgbaar bij [Okaphone](https://www.okaphone.com/search.asp?advanced=0&query=nodemcu). Ook voor een keur aan sensoren en tips en adviezen kun je daar terecht.**  
+
 * [wifi.lua](wifi.lua)
 Met dit Lua programma worden de instellingen voor wifi verbindingen met het internet ingesteld. Wifi instellingen worden lokaal op de NodeMCU bewaard en daarom is het niet nodig om vaker dan 1 keer de wifi verbinding in te stellen. 
 * [blink.lua](blink.lua)
