@@ -23,10 +23,10 @@ In het midden van het blokschema is de microcontroller getekend. Dit is een klei
 Het flashgeheugen bevat in elk geval een bootloader en de NodeMCU firmware. Met de bootloader is het mogelijk om nieuwe, verbeterde NodeMCU firmware te laden. Ook zit er in het flashgeheugen een 'SPIFFS': een bestandssysteem dat ervoor zorgt dat je je programma's kunt opslaan, maar ook dat je vanuit je programma's eenvoudig gegevens kunt bewaren.
 
 ### Downloaden van de juiste driver voor de NodeMCU
-NodeMCU's hebben een kleine USB conversiechip. Het merk en type hiervan bepaalt, welke USB driver je nodig hebt voor je NodeMCU. De NodeMCU's van fabrikanten Amica en LoLin maken gebruik van de Silicon Labs CP210, waar de drivers [hier](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) te vinden zijn. De NodeMCU's van fabrikant DOIT maken gebruik van de WCH CH340, waarvan de drivers [hier]() staan. Het merk van de NodeMCU staat op de achterkant.
+NodeMCU's hebben een kleine USB conversiechip. Het merk en type hiervan bepaalt, welke USB driver je nodig hebt voor je NodeMCU. De NodeMCU's van fabrikanten _Amica_ en _LoLin_ maken gebruik van de Silicon Labs CP210, waar de drivers [hier](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) te vinden zijn. De NodeMCU's van fabrikant _GeekCreit DOIT_ maken gebruik van de WCH CH340, waarvan de drivers [hier](http://www.wch.cn/download/CH341SER_EXE.html) staan. Het merk van de NodeMCU staat op de achterkant.
 
 ### Downloaden van de programmeeromgeving
-De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun je <a href="https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">hier</a> downloaden. De download komt als .zip bestand, die uitgepakt een enkele <code>esplorer.jar</code> bevat. 
+De gebruikte programmeeromgeving heet 'ESPlorer'. Deze programmeeromgeving kun je [hier](https://esp8266.ru/esplorer-latest/?f=ESPlorer.zip) downloaden. De download komt als .zip bestand, die uitgepakt een enkele <code>esplorer.jar</code> bevat. 
 
 ## Aan de slag
 Je NodeMCU wordt op een stukje schuim geleverd. Het schuim zorgt ervoor dat de aansluitpennen van de NodeMCU niet buigen en niet per ongeluk kortsluiting maken. Als je iets op je NodeMCU wilt aansluiten dan is het nodig een breadboard te gebruiken. Hieronder zie je een NodeMCU die op een breadboard is gedrukt. Je ziet dat er boven en onder de NodeMCU een gaatjesrij is vrijgehouden. Hier kun je een draadje inprikken om verbindingen te maken met bijvoorbeeld een sensor.
