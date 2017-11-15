@@ -188,7 +188,7 @@ Controleer dat je de micro-USB kabel hebt aangesloten, de juiste USB poort hebt 
 Het kan nodig zijn om nieuwe, verbeterde NodeMCU firmware op je NodeMCU te zetten. Volg hiervoor het update firmware stappenplan.  
 
 ## Firmware upgraden
-De NodeMCU wordt voorzien van firmware 
+De NodeMCU firmware bestaat uit een Lua interpreter, SPIFFS en verschillende Lua uitbreidingen, modules genaamd. Er zijn tientallen verschillende modules voor Lua beschikbaar. Allemaal in de firmware opnemen is niet zo handig, omdat de modules ten koste gaan van het beschikbare werkgeheugen van de ESP8266. Voor verschillende doeleinden kan het daarom nodig zijn om een andere NodeMCU firmware te laden. Nieuwe firmware kun je maken met de _cloud buildservice_ [NodeMCU Custom Builds](https://nodemcu-build.com). Na een paar minuten ontvang je via email een link naar jouw op maat gegenereerde firmware.
 
 ## Links en downloads
 **Alle genoemde onderdelen en het boek Zelf een IoT toepassing maken, zijn online en in de winkel verkrijgbaar bij [Okaphone](https://www.okaphone.com/search.asp?advanced=0&query=nodemcu). Ook voor een keur aan sensoren en tips en adviezen kun je daar terecht.**  
