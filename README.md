@@ -187,6 +187,9 @@ Controleer dat je de micro-USB kabel hebt aangesloten, de juiste USB poort hebt 
 * Je NodeMCU lijkt niet te willen werken met drijvende-komma-getallen, of enkele Lua instructies die hier genoemd worden lijken niet op je NodeMCU te werken  
 Het kan nodig zijn om nieuwe, verbeterde NodeMCU firmware op je NodeMCU te zetten. Volg hiervoor het update firmware stappenplan.  
 
+## Firmware upgraden
+De NodeMCU wordt voorzien van firmware 
+
 ## Links en downloads
 **Alle genoemde onderdelen en het boek Zelf een IoT toepassing maken, zijn online en in de winkel verkrijgbaar bij [Okaphone](https://www.okaphone.com/search.asp?advanced=0&query=nodemcu). Ook voor een keur aan sensoren en tips en adviezen kun je daar terecht.**  
 
