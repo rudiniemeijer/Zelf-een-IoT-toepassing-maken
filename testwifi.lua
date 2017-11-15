@@ -1,4 +1,4 @@
--- wifi.lua
+-- testwifi.lua
 -- Uit het boek Zelf een IoT toepassing maken
 -- Copyright (c) 2017 Rudi Niemeijer
 -- MIT license
@@ -9,23 +9,33 @@
 -- Mechanisme voor wifi instellingen is gewijzigd
 wifi.setmode(wifi.STATION)
 station_cfg = {}
-station_cfg.ssid = "EIGENWIFINAAM"
-station_cfg.pwd = "WIFIWACHTWOORD"
+station_cfg.ssid = "ViperNext"
+station_cfg.pwd = "V1perN3xt"
 station_cfg.save = true
 wifi.sta.config(station_cfg)
 wifi.sta.connect()
 
--- Gebruik de volgende instructies in de console om wifi verbindingen te controleren
--- print(wifi.sta.status()) -- Status 5 is A-OK
--- print(wifi.sta.getip())
+LEDPIN1 = 0 -- D0 op NodeMCU printplaat
+LEDPIN2 = 4 -- D4 op NodeMCU printplaat
+
+gpio.mode(LEDPIN1, gpio.OUTPUT) -- Set LEDPIN1 as output
+gpio.mode(LEDPIN2, gpio.OUTPUT) -- Set LEDPIN2 as output
 
 -- Probeer iedere 30 seconden verbinding met het internet te maken
 -- Informatie over het gebruik van de webhook in de README.MD
 tmr.alarm(6, 30000, tmr.ALARM_AUTO, function() 
   if wifi.sta.status() == 5 then
+    gpio.write(LEDPIN1, gpio.LOW)  -- led aanzetten
+    tmr.alarm(3, 500, tmr.ALARM_SINGLE, function ()
+      gpio.write(LEDPIN1, gpio.HIGH)
+    end)
     print("Er is verbinding met het internet: "..wifi.sta.getip())
     http.get("http://maker.ifttt.com/trigger/testwifi/with/key/cKOv_7WOkun-XfI22a5Duw-yhCiJF61C-dn4NvuU-LI?value1=" .. wifi.sta.getmac())
   else
+    gpio.write(LEDPIN2, gpio.LOW)  -- led aanzetten
+    tmr.alarm(3, 500, tmr.ALARM_SINGLE, function ()
+      gpio.write(LEDPIN2, gpio.HIGH)
+    end)
     print("Nog geen verbinding met het internet. Controleer de instellingen.")
   end
 end)
