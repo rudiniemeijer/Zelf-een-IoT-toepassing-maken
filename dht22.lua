@@ -6,9 +6,9 @@ ledpin, dhtsensorpin = 4, 2
 gpio.mode(ledpin, gpio.OUTPUT)
 
 -- Change this
-IFTTT_APPLET = "node_dht_store"
-IFTTT_API_KEY = "pWixgavdPXBK6n6vbjWr3xJZoc7V_hDY8NdNIs8Wq68"
-THS_API_KEY = "QQKSHKKOVC23RFHW"
+IFTTT_APPLET = "IFTTT_APPLET_NAME"
+IFTTT_API_KEY = "IFTTT_API_KEY"
+THS_API_KEY = "THINGSPEAK_API_KEY"
 INTERVAL = 10000
 HUM_MAX = 80
 
