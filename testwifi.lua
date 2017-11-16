@@ -30,7 +30,7 @@ tmr.alarm(6, 30000, tmr.ALARM_AUTO, function()
       gpio.write(LEDPIN1, gpio.HIGH)
     end)
     print("Er is verbinding met het internet: "..wifi.sta.getip())
-    http.get("http://maker.ifttt.com/trigger/testwifi/with/key/cKOv_7WOkun-XfI22a5Duw-yhCiJF61C-dn4NvuU-LI?value1=" .. wifi.sta.getmac())
+    http.get("http://maker.ifttt.com/trigger/testwifi/with/key/pWixgavdPXBK6n6vbjWr3xJZoc7V_hDY8NdNIs8Wq68?value1=" .. wifi.sta.getmac())
   else
     gpio.write(LEDPIN2, gpio.LOW)  -- led aanzetten
     tmr.alarm(3, 500, tmr.ALARM_SINGLE, function ()
