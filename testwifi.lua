@@ -9,8 +9,8 @@
 -- Mechanisme voor wifi instellingen is gewijzigd
 wifi.setmode(wifi.STATION)
 station_cfg = {}
-station_cfg.ssid = "ViperNext"
-station_cfg.pwd = "V1perN3xt"
+station_cfg.ssid = "JOUWSSID"
+station_cfg.pwd = "JOUWWACHTWOORD"
 station_cfg.save = true
 wifi.sta.config(station_cfg)
 wifi.sta.connect()
