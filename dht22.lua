@@ -9,8 +9,8 @@ gpio.mode(ledpin, gpio.OUTPUT)
 IFTTT_APPLET = "node_dht_store"
 IFTTT_API_KEY = "pWixgavdPXBK6n6vbjWr3xJZoc7V_hDY8NdNIs8Wq68"
 THS_API_KEY = "QQKSHKKOVC23RFHW"
-INTERVAL = 30000
-HUM_MAX = 78
+INTERVAL = 10000
+HUM_MAX = 80
 
 -- Do not change this
 IFTTT_URL = "http://maker.ifttt.com/trigger/"..IFTTT_APPLET.."/with/key/"..IFTTT_API_KEY
