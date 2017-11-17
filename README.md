@@ -13,6 +13,8 @@ Verder is een breadboard met minimaal 400 gaatjes handig en draadjes waarmee je 
 
 **Alle genoemde onderdelen en het boek Zelf een IoT toepassing maken, zijn online en in de winkel verkrijgbaar bij [Okaphone](https://www.okaphone.com/search.asp?advanced=0&query=nodemcu). Ook voor een keur aan sensoren en tips en adviezen kun je daar terecht.**
 
+Voor de officiële documentatie voor de NodeMCU is een speciale website beschikbaar: [NodeMCU Documentation](https://nodemcu.readthedocs.io/en/master/).
+
 ### Beschrijving van het blokschema van de NodeMCU
 Een NodeMCU heeft vier belangrijke onderdelen: een spanningsregulator naar 3,3 volt, een USB naar serieel conversiechip, een microcontroller van het type ESP8266 en een 4 MB groot flashgeheugen voor de Lua interpreter, de firmware en jouw eigen programma's. Het geheugen is groot genoeg voor tientallen programma's, die elkaar kunnen aanroepen met <code>resultaat = dofile("luaprogramma")</code>.
 
