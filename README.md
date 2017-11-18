@@ -135,6 +135,7 @@ Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
     a = {}
     a = file.readline()
     file.close()
+    resultaat = dofile("luaprogramma")
 
 ### Input en output
     gpio.mode(1, gpio.INPUT, gpio.PULLUP)
@@ -179,6 +180,13 @@ Beweging kun je detecteren met een [Passief Infra Rood (PIR) sensor](https://www
 <img alt="PIR sensor aansluiten op de NodeMCU" src="https://github.com/rudiniemeijer/zelf-een-iot-toepassing-maken/blob/master/artwork/diagram-pirsensor-aan-nodemcu.jpg" width="500">
 
 Met het voorbeeldprogramma [testpir.lua](testpir.lua) controleer je of je de PIR sensor goed hebt aangesloten. En als je wilt kun je met IFTTT een actie, zoals een Tweet of email versturen, laten uitvoeren zodra er beweging wordt gedetecteerd. Je gebruikt daarvoor [pirtoifttt.lua](pirtoifttt.lua).
+
+### De NodeMCU met een USB powerbank verbinden
+Je kunt je NodeMCU prima met een USB powerbank (een 5 volt lithiumaccu met een USB aansluiting) voeden. Je zult echter zien dat je programma's dan nog niet zelf opstarten. Om een Lua programma bij het aanzetten van de NodeMCU automatisch te laten draaien, gebruik je een opstartprogramma genaamd `init.lua`. Dit programma maak je op de gebruikelijke manier aan, en voorziet het van de instructie <code>resultaat = dofile("luaprogramma")</code>. Om pirtoifttt.lua automatisch op te starten kun je het volgende in je `init.lua` zetten:
+<code>print("5 seconden wachten alvorens te starten")
+    tmr.delay(5 * 1000000)
+    dofile("pirtoifttt.lua")</code>
+De pauze voor het opstarten is handig voor het geval er een fout in je op te starten Lua programma zit; je kunt dan nog op tijd het opstarten ervan afbreken.
 
 ## Problemen oplossen
 Werken met microcontrollers zoals de NodeMCU is heel plezierig en meestal krijg je snel resultaten. Soms zit er echter wat tegen. Hieronder volgt een lijstje aandachtspunten voor als het allemaal niet werkt zoals je dat wilt:
