@@ -198,6 +198,8 @@ Controleer of je NodeMCU is aangesloten. Druk op de Refresh knop gelijk rechts n
 Controleer dat je de micro-USB kabel hebt aangesloten, de juiste USB poort hebt gekozen, 115200 als verbindingssnelheid heb gekozen en op de Open knop hebt gedrukt. Als je niet nog steeds niets in het terminalscherm ziet, druk dan op de Reset-knop van de NodeMCU
 * Je NodeMCU lijkt niet te willen werken met drijvende-komma-getallen, of enkele Lua instructies die hier genoemd worden lijken niet op je NodeMCU te werken  
 Het kan nodig zijn om nieuwe, verbeterde NodeMCU firmware op je NodeMCU te zetten. Volg hiervoor het update firmware stappenplan.  
+* ESPlorer breekt af zodra op de knop Open wordt gedrukt  
+In heel sporadische gevallen kan het voorkomen dat de Java versie die op je computer is geïnstalleerd niet overweg kan met de USB poorten. Je moet dan een nieuwere versie van Java installeren. Maak hiervoor gebruik van [de officiële versie van Java van Oracle](www.java.com).
 
 ## Firmware upgraden
 De NodeMCU firmware bestaat uit een Lua interpreter, SPIFFS en verschillende Lua uitbreidingen, modules genaamd. Er zijn tientallen verschillende modules voor Lua beschikbaar. Allemaal in de firmware opnemen is niet zo handig, omdat de modules ten koste gaan van het beschikbare werkgeheugen van de ESP8266. Voor verschillende doeleinden kan het daarom nodig zijn om een andere NodeMCU firmware te laden. Nieuwe firmware kun je maken met de _cloud buildservice_ [NodeMCU Custom Builds](https://nodemcu-build.com). Na een paar minuten ontvang je via email een link naar jouw op maat gegenereerde firmware.
