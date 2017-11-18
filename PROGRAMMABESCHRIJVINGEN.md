@@ -1,7 +1,7 @@
 # Programmabeschrijvingen
 
-## [wifi.lua](wifi.lua)
-Met dit Lua programma worden de instellingen voor wifi verbindingen met het internet ingesteld. Wifi instellingen worden lokaal op de NodeMCU bewaard en daarom is het niet nodig om vaker dan 1 keer de wifi verbinding in te stellen. 
+## [wifi.lua](wifi.lua) en [testwifi.lua](testwifi.lua)
+Met dit Lua programma worden de instellingen voor wifi verbindingen met het internet ingesteld. Wifi instellingen worden lokaal op de NodeMCU bewaard en daarom is het niet nodig om vaker dan 1 keer de wifi verbinding in te stellen. `testwifi.lua` doet hetzelfde, maar bevat enkele controles voor als het verbinden met wifi niet direct lukt.
 ## [blink.lua](blink.lua)
 Dit Lua programma laat de led D0 op de NodeMCU met tussenpozen van 1 seconde knipperen.
 ## [testpir.lua](testpir.lua)
