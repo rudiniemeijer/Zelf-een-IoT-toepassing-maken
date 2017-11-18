@@ -206,7 +206,7 @@ Je laadt de firmware in de NodeMCU met [een tooltje, `esptool.py`, dat geschreve
 
     python ./esptool.py --port=/dev/cu.SLAB_USBtoUART write_flash -fm=dio -fs=4MB 0x00000 ./nodemcu-master-22-modules-float.bin
 
-Afhankelijk van je je eigen computer zal de aanroep er iets anders uitzien. In [dit OS X shellscript](update-firmware/osx-flash-amica.sh) zie je een uitgebreider voorbeeld.
+Afhankelijk van de manier waarop je eigen computer is ingericht zal de aanroep er iets anders uitzien. In [dit OS X shellscript](update-firmware/osx-flash-amica.sh) zie je een uitgebreider voorbeeld.
 
 ## Links en downloads
 **Alle genoemde onderdelen en het boek Zelf een IoT toepassing maken, zijn online en in de winkel verkrijgbaar bij [Okaphone](https://www.okaphone.com/search.asp?advanced=0&query=nodemcu). Ook voor een keur aan sensoren en tips en adviezen kun je daar terecht.**
