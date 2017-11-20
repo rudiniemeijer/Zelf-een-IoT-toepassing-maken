@@ -188,7 +188,18 @@ Je kunt je NodeMCU prima met een USB powerbank (een 5 volt lithiumaccu met een U
     tmr.delay(5 * 1000000)  
     dofile("pirtoifttt.lua") 
     
-De pauze voor het opstarten is handig voor het geval er een fout in je op te starten Lua programma zit; je kunt dan nog op tijd het opstarten ervan afbreken.
+De pauze voor het opstarten is handig voor het geval er een fout in je op te starten Lua programma zit; je kunt dan nog op tijd het opstarten ervan afbreken. Een nog elegantere manier is misschien wel de volgende routine, die het automatisch opstarten afbreekt als er binnen 5 seconden op de FLASH knop wordt gedrukt:
+
+    print("Druk binnen 5 seconden op FLASH om de automatische start af te breken..")
+    tmr.alarm(0, 5000, tmr.ALARM_SINGLE, function() dofile("pirtoifttt.lua") end)
+      
+    function stopAutoRun()
+      tmr.stop(0)
+      print("Automatische start is afgebroken.")
+    end
+      
+    gpio.mode(3, gpio.INT, gpio.PULLUP)
+    gpio.trig(3, "down", stopAutoRun)
 
 ## Problemen oplossen
 Werken met microcontrollers zoals de NodeMCU is heel plezierig en meestal krijg je snel resultaten. Soms zit er echter wat tegen. Hieronder volgt een lijstje aandachtspunten voor als het allemaal niet werkt zoals je dat wilt:
