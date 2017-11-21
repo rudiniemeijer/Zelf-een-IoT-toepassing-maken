@@ -1,5 +1,6 @@
 -- WS2812 RGB led strip display
 -- Copyright (c) 2017 Rudi Niemeijer
+-- Display routines ontleend aan https://github.com/rudiniemeijer/NodeMCU-Lua-WS2812-matrix-displays
 -- MIT License
 --
 -- Werkt met WS2812 led strips die in rijen onder elkaar zijn opgesteld
@@ -15,7 +16,9 @@ ws2812.init(ws2812.MODE_SINGLE) -- D4/GPIO2
 leds = displayWidth * displayHeight
 disp = ws2812.newBuffer(leds, 3) -- Display buffer with 3 colors fixed
 
--- Onderstaande routines ontleend aan 
+------------------------------------------------------------------------------------------
+-- Derived/copied from https://github.com/rudiniemeijer/NodeMCU-Lua-WS2812-matrix-displays
+------------------------------------------------------------------------------------------
 -- Set brightness of all displays
 brightness = 1 -- 1..255, note that color depth decreases with brightness
 
@@ -187,6 +190,7 @@ end
 -- Convert from orthogonal coordinates to led strip --
 ------------------------------------------------------
 function toLineair(x, y)
+  
   boardNumber = math.floor((y - 1) / boardHeight) * boardsWide + math.floor((x - 1) / boardWidth)
   boardX = x - math.floor((x - 1) / boardWidth) * boardWidth
   boardY = y - math.floor((y - 1) / boardHeight) * boardHeight
