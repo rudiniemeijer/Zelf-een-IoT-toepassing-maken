@@ -190,11 +190,7 @@ end
 -- Convert from orthogonal coordinates to led strip --
 ------------------------------------------------------
 function toLineair(x, y)
-  
-  boardNumber = math.floor((y - 1) / boardHeight) * boardsWide + math.floor((x - 1) / boardWidth)
-  boardX = x - math.floor((x - 1) / boardWidth) * boardWidth
-  boardY = y - math.floor((y - 1) / boardHeight) * boardHeight
-  linPos = boardNumber * ledsPerBoard + (boardY - 1) * boardHeight + boardX
+  linPos = (y - 1) * displayWidth + x
   return linPos
 end
 
