@@ -8,3 +8,5 @@ Dit Lua programma laat de led D0 op de NodeMCU met tussenpozen van 1 seconde kni
 Met `testpir.lua` is eenvoudig te testen of een PIR sensor op de juiste manier op de NodeMCU is aangesloten. `pirtoifttt.lua` maakt verbinding met het internet en roept via een webhook een applet op IFTTT aan. Deze applet kan vervolgens een actie naar wens uitvoeren, zoals het versturen van een Twitter bericht.
 ## [testanalog.lua](testanalog.lua) en [resistancetothingspeak.lua](resistancetothingspeak.lua)
 Met `testanalog.lua` wordt de (enige) analoge poort van de NodeMCU uitgelezen en wordt de waarde op het scherm getoond. `resistancetothingspeak.lua` maakt verbinding met het internet en stuurt via een webhook de gemeten waarde van de analoge poort naar ThingSpeak.
+## [kleurwandel.lua](kleurwandel.lua)
+## [dht22.lua](dht22.lua)
