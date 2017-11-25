@@ -3,6 +3,8 @@
 -- Copyright (c) 2017 Rudi Niemeijer
 -- MIT license
 
+-- Required modules in NodeMCU firmware: gpio
+
 wachttijd = 1000  -- ms tussen AAN en UIT
 ledpin = 0        -- D0 (er is ook een led op D4)
 ledaan = 0        -- status van de led
