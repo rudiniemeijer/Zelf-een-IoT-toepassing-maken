@@ -9,4 +9,11 @@ Met `testpir.lua` is eenvoudig te testen of een PIR sensor op de juiste manier o
 ## [testanalog.lua](testanalog.lua) en [resistancetothingspeak.lua](resistancetothingspeak.lua)
 Met `testanalog.lua` wordt de (enige) analoge poort van de NodeMCU uitgelezen en wordt de waarde op het scherm getoond. `resistancetothingspeak.lua` maakt verbinding met het internet en stuurt via een webhook de gemeten waarde van de analoge poort naar ThingSpeak.
 ## [kleurwandel.lua](kleurwandel.lua)
+`kleurwandel.lua` stuurt één of meerdere WS2812 leds aan in een rupsachtig wandelpatroon waarbij de kleur van de leds langzaam door het kleurspectrum verloopt. De ingang van de (eerste) WS2812 led wordt op D4 aangesloten, de (+) en (-) worden op de Vin en GND van de NodeMCU aangesloten. De NodeMCU kan stroom leveren voor ongeveer 20 ws2812 leds.
 ## [dht22.lua](dht22.lua)
+
+# Vereiste modules voor de programma's
+| programma | vereiste modules |
+| --------- | ---------------- |
+| `wifi.lua` | `wifi` |
+| `testwifi.lua`| `wifi`, `http` |
