@@ -15,5 +15,5 @@ Met `testanalog.lua` wordt de (enige) analoge poort van de NodeMCU uitgelezen en
 # Vereiste modules voor de programma's
 | programma | vereiste modules |
 | --------- | ---------------- |
-| `wifi.lua` | `wifi` |
-| `testwifi.lua`| `wifi`, `http` |
+| wifi.lua | wifi |
+| testwifi.lua |  wifi, http |
