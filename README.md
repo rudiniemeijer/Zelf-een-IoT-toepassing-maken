@@ -213,13 +213,13 @@ Het kan nodig zijn om nieuwe, verbeterde NodeMCU firmware op je NodeMCU te zette
 In heel sporadische gevallen kan het voorkomen dat de Java versie die op je computer is geïnstalleerd niet overweg kan met de USB poorten. Je moet dan een nieuwere versie van Java installeren. Maak hiervoor gebruik van [de officiële versie van Java van Oracle](www.java.com).
 
 ## Firmware upgraden
-De NodeMCU firmware bestaat uit een Lua interpreter, SPIFFS en verschillende Lua uitbreidingen, modules genaamd. Er zijn tientallen verschillende modules voor Lua beschikbaar. Allemaal in de firmware opnemen is niet zo handig, omdat de modules ten koste gaan van het beschikbare werkgeheugen van de ESP8266. Voor verschillende doeleinden kan het daarom nodig zijn om een andere NodeMCU firmware te laden. Nieuwe firmware kun je maken met de _cloud buildservice_ [NodeMCU Custom Builds](https://nodemcu-build.com). Na een paar minuten ontvang je via email een link naar jouw op maat gegenereerde firmware.
+De NodeMCU firmware bestaat uit een Lua interpreter, SPIFFS en verschillende Lua uitbreidingen, modules genaamd. Er zijn tientallen verschillende modules voor Lua beschikbaar. Allemaal in de firmware opnemen is niet zo handig, omdat de modules ten koste gaan van het beschikbare werkgeheugen van de ESP8266. Voor verschillende doeleinden kan het daarom nodig zijn om een andere NodeMCU firmware te laden. Nieuwe firmware kun je maken met de _cloud buildservice_ [NodeMCU Custom Builds](https://nodemcu-build.com). Na een paar minuten ontvang je via email een link naar jouw op maat gegenereerde firmware. Voor het gebruik van de voorbeelden in het boek zijn de volgende modules nodig:  `bit`, `file`, `gpio`, `http`, `net`, `node`, `rtctime`, `sjson`, `sntp`, `tmr`, `uart`, `wifi`, `ws2812`.
 
 Je laadt de firmware in de NodeMCU met [een tooltje, `esptool.py`, dat geschreven is in Python](update-firmware/esptool.py). Je zult [Python moeten installeren](https://www.python.org/downloads/) om van het tooltje gebruik te maken. Bij de aanroep van `esptool.py` dien je ondermeer de naam van de firmware, de USB poort en enkele geheugenlocaties op te geven:
 
     python ./esptool.py --port=/dev/cu.SLAB_USBtoUART write_flash -fm=dio -fs=4MB 0x00000 ./nodemcu-master-22-modules-float.bin
 
-Afhankelijk van de manier waarop je eigen computer is ingericht zal de aanroep er iets anders uitzien. In [dit OS X shellscript](update-firmware/osx-flash-amica.sh) zie je een uitgebreider voorbeeld.
+Afhankelijk van de manier waarop je eigen computer is ingericht zal de aanroep er iets anders uitzien. In [dit OS X shellscript](update-firmware/osx-flash-amica.sh) zie je een uitgebreider voorbeeld. 
 
 ## Links en downloads
 **Alle genoemde onderdelen en het boek Zelf een IoT toepassing maken, zijn online en in de winkel verkrijgbaar bij [Okaphone](https://www.okaphone.com/search.asp?advanced=0&query=nodemcu). Ook voor een keur aan sensoren en tips en adviezen kun je daar terecht.**
