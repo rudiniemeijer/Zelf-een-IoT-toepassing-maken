@@ -47,7 +47,7 @@ tmr.alarm(5, INTERVAL, tmr.ALARM_AUTO, function()
       tmr.alarm(0, INTERVAL / 2, tmr.ALARM_SINGLE, function() -- Led off after longer while
         gpio.write(ledpin, gpio.HIGH)                 -- gpio.HIGH is led OFF
       end)
-      print("No IP address. Use wifi.sta.config() first")
+      print("No IP address. Use wifi.sta.config() first") 
     end
   end 
 end)
