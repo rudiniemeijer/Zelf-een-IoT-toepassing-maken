@@ -1,7 +1,7 @@
 -- kleurwandel.lua
 -- Ondersteunend programma bij het boek Zelf een IoT toepassingmaken
 -- 1e druk, ISBN 
--- Copyright (c) 2016 Testconsultancy Groep
+-- Copyright (c) 2017 Testconsultancy Groep
 -- Op dit programma is de MIT Open Source licentie van toepassing
  
 leds = 4 -- Aantal leds, index 1..leds
