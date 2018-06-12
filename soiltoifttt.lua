@@ -23,8 +23,9 @@ function meting()
     function()                                      -- led uit na 0,5 seconden
       gpio.write(ledpin, gpio.HIGH)                 -- gpio.HIGH is led UIT
     end)
-    http.get(URL.."?value1="..adc.read(0))
-    print(URL.."?value1="..adc.read(0))
+    meetwaarde = adc.read(0)
+    http.get(URL.."?value1="..meetwaarde)
+    print(URL.."?value1="..meetwaarde)
   else
     print("Geen IP adres. Gebruik wifi.sta.config() en controleer de verbinding")
     tmr.alarm(0, 2000, tmr.ALARM_SINGLE, function() -- Led uit na 2 seconden
