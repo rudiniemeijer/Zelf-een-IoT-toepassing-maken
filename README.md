@@ -83,6 +83,12 @@ Je kunt op verschillende manieren sensoren inlezen met je NodeMCU:
     ^
 
 ### Voorwaardelijke lussen
+    if i == 0 then
+      print("op nul")
+    else
+      print("niet op nul")
+    end
+    
     while i <= 5 do
     end
     
