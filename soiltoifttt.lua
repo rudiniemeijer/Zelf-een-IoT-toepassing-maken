@@ -33,4 +33,4 @@ function meting()
   end
 end
 
-tmr.alarm(4, 180000, tmr.ALARM_AUTO, meting) -- Iedere 30 seconden een meting
+tmr.alarm(4, 180000, tmr.ALARM_AUTO, meting) -- Iedere 3 minuten een meting
